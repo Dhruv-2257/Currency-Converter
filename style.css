@@ -1,0 +1,115 @@
+/* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  /* Container */
+  .container {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 480px;
+  }
+  
+  /* Header or message text */
+  .msg {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #374151;
+  }
+  
+  /* Form Layout */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  /* Input Fields */
+  form input,
+  .select-container select {
+    background-color: #f3f4f6;
+    border: 1px solid #d1d5db;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    color: #111827;
+    transition: border-color 0.2s;
+  }
+  
+  form input:focus,
+  .select-container select:focus {
+    border-color: #6366f1;
+    outline: none;
+  }
+  
+  /* Button */
+  form button {
+    background-color: #6366f1;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  form button:hover {
+    background-color: #4f46e5;
+    transform: translateY(-1px);
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  /* Icon */
+  .dropdown i {
+    font-size: 1.5rem;
+    color: #3b82f6;
+  }
+  
+  /* Select Container */
+  .select-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #f3f4f6;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+  }
+  
+  .select-container img {
+    max-width: 1.75rem;
+  }
+  
+  .select-container select {
+    background: transparent;
+    border: none;
+    color: #111827;
+    font-size: 1rem;
+  }
+  
